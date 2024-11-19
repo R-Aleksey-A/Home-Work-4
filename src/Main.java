@@ -32,7 +32,7 @@ public class Main {
         System.out.println();
         System.out.println("Задание-4");
 
-        int homan = 65;
+        int homan = 80;
         boolean child = homan >= 2 && homan <= 6;
         if (child) {
             System.out.println("Нужно ходить в детский сад");
@@ -53,6 +53,23 @@ public class Main {
         boolean old = homan >= 65;
         if (old) {
             System.out.println(" Ты молодец: хорошо учился, усердно работал, а теперь долгожданный отдых, пенсия!!");
+        }
+        System.out.println();
+        System.out.println("Задание-5");
+
+        int agesChild = 2;
+        boolean childNotAllowed = agesChild < 5 ;
+        if (childNotAllowed) {
+            System.out.println("Ребенок не может кататься на аттракционе.");
+        }
+        boolean childWithEscort = agesChild >=5 && agesChild < 14;
+        if (childWithEscort) {
+            System.out.println("Ребенок может кататься только в сопровождении взрослого");
+        }
+
+        boolean childAdmittedAlone = agesChild >= 14;
+        if (childAdmittedAlone) {
+            System.out.println("Ребенок может кататься без сопровождения взрослого.");
         }
     }
 }
