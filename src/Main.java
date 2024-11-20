@@ -100,6 +100,34 @@ public class Main {
         } else {
             System.out.println("В вагоне сидячих мест нет ");
         }
+        System.out.println();
+        System.out.println("Задание-7");
+        System.out.println("Вариант-1 c else");
+        int one = 5;
+        int two = 4;
+        int three = 7;
+
+        if (one > two && one > three) {
+            System.out.println(one);
+        } else if (two > one && two > three) {
+            System.out.println(two);
+        } else {
+            System.out.println(three);
+        }
+        System.out.println();
+        System.out.println("Вариант-2 без else c boolean");
+        boolean resultOne = one > two && one > three;
+        if (resultOne) {
+            System.out.println(one);
+        }
+        boolean resulTwo = two > one && two > three;
+        if (resulTwo) {
+            System.out.println(two);
+        }
+        boolean resulThree = three > two && three > one;
+        if (resulThree) {
+            System.out.println(three);
+        }
 
     }
 }
