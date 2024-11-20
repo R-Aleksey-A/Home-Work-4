@@ -58,11 +58,11 @@ public class Main {
         System.out.println("Задание-5");
 
         int agesChild = 2;
-        boolean childNotAllowed = agesChild < 5 ;
+        boolean childNotAllowed = agesChild < 5;
         if (childNotAllowed) {
             System.out.println("Ребенок не может кататься на аттракционе.");
         }
-        boolean childWithEscort = agesChild >=5 && agesChild < 14;
+        boolean childWithEscort = agesChild >= 5 && agesChild < 14;
         if (childWithEscort) {
             System.out.println("Ребенок может кататься только в сопровождении взрослого");
         }
@@ -71,5 +71,22 @@ public class Main {
         if (childAdmittedAlone) {
             System.out.println("Ребенок может кататься без сопровождения взрослого.");
         }
+
+        System.out.println();
+        System.out.println("Задание-6");
+        int capacityOfCarriage = 120;
+        int sittingInSeats = 60;
+        int peopel = 119;
+        if (capacityOfCarriage > peopel) {
+            System.out.println("В вагоне места есть");
+        } else {
+            System.out.println("В вагоне мест нет");
+        }
+        if (sittingInSeats > peopel) {
+            System.out.println("В вагоне сидячие места есть");
+        } else {
+            System.out.println("В вагоне сидячих мест нет ");
+        }
+
     }
 }
