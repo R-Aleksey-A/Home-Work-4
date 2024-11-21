@@ -32,25 +32,25 @@ public class Main {
         System.out.println();
         System.out.println("Задание-4");
 
-        int homan = 80;
-        boolean child = homan >= 2 && homan <= 6;
+        int agePerson = 65;
+        boolean child = agePerson >= 2 && agePerson <= 6;
         if (child) {
             System.out.println("Нужно ходить в детский сад");
         }
-        boolean teenager = homan >= 7 && homan <= 17;
+        boolean teenager = agePerson >= 7 && agePerson <= 17;
         if (teenager) {
             System.out.println("Нужно ходить в школу");
         }
 
-        boolean youngMan = homan >= 18 && homan <= 24;
+        boolean youngMan = agePerson >= 18 && agePerson <= 24;
         if (youngMan) {
             System.out.println("Нужно ходить в университет");
         }
-        boolean adult = homan >= 25 && homan <= 60;
+        boolean adult = agePerson >= 25 && agePerson <= 64;
         if (adult) {
             System.out.println("Нужно ходить на работу");
         }
-        boolean old = homan >= 65;
+        boolean old = agePerson >= 65;
         if (old) {
             System.out.println(" Ты молодец: хорошо учился, усердно работал, а теперь долгожданный отдых, пенсия!!");
         }
