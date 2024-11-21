@@ -77,25 +77,25 @@ public class Main {
         System.out.println("Вариант 1");
         int capacityOfCarriage = 120;
         int sittingInSeats = 60;
-        int peopel = 119;
-        if (capacityOfCarriage > peopel) {
+        int people = 119;
+        if (capacityOfCarriage > people) {
             System.out.println("В вагоне места есть");
         } else {
             System.out.println("В вагоне мест нет");
         }
-        if (sittingInSeats > peopel) {
+        if (sittingInSeats > people) {
             System.out.println("В вагоне сидячие места есть");
         } else {
             System.out.println("В вагоне сидячих мест нет ");
         }
         System.out.println("Вариант2");
-        int peopel1 = 119;
-        if (120 > peopel1) {
+        int people1 = 119;
+        if (120 > people1) {
             System.out.println("В вагоне места есть");
         } else {
             System.out.println("В вагоне мест нет");
         }
-        if (60 > peopel1) {
+        if (60 > people1) {
             System.out.println("В вагоне сидячие места есть");
         } else {
             System.out.println("В вагоне сидячих мест нет ");
